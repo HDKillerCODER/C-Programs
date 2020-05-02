@@ -1,0 +1,23 @@
+//C PROGRAM TO CALCULATE THE POWER OF A NUMBER USING RECURSION
+
+
+
+#include <stdio.h>
+int power(int,int);
+int main()
+{
+    int a,b,res;
+    printf("Enter the base number: ");
+    scanf("%d",&a);
+    printf("\nEnter the power number: ");
+    scanf("%d",&b);
+    res=power(a,b);
+    printf("The result is: %d\n",res);
+}
+int power(int a,int b)
+{
+    if(b==0)
+        return 1;
+    else
+        return power(a,b-1)*a;
+}
