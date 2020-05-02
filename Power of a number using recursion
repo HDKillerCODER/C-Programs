@@ -1,7 +1,6 @@
 //C PROGRAM TO CALCULATE THE POWER OF A NUMBER USING RECURSION
 
 
-
 #include <stdio.h>
 int power(int,int);
 int main()
