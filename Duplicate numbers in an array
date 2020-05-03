@@ -22,7 +22,7 @@ int main()
             if(a[i]==a[j]&&i!=j)
             {
                 flag=1;
-                printf("\nThe duplicate number %d is found at indexes %d and %d\n",a[i],i,j);
+                printf("\nThe duplicate number %d is found at indexes %d and %d\n",a[i],i,j);//printing value and indexes of duplicate numbers
             }
         }
     }
